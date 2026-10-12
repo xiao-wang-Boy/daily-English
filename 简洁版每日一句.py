@@ -5,7 +5,7 @@ import requests
 from datetime import datetime
 
 # ============== DeepSeek API配置 ==============
-API_KEY = "sk-0c2e4f79529d42c983117703d10f6ee6"  # 在这里填写你的API Key
+API_KEY = "xxxxx"  # 在这里填写你的API Key
 API_URL = "https://api.deepseek.com/v1/chat/completions"
 
 
