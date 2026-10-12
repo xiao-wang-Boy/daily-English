@@ -1,11 +1,16 @@
 # daily_quick.py
 # 超简洁版本 - 每次运行获取一句
 
+import os
+from dotenv import load_dotenv
+
+
 import requests
 from datetime import datetime
 
 # ============== DeepSeek API配置 ==============
-API_KEY = "xxxxx"  # 在这里填写你的API Key
+load_dotenv()
+API_KEY =os.getenv("DEEPSEEK_API_KEY")  # 在这里填写你的API Key
 API_URL = "https://api.deepseek.com/v1/chat/completions"
 
 
